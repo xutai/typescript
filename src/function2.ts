@@ -18,3 +18,6 @@ function deleteUser(user: User) {
 console.info(getAdminUser())
 console.info(deleteUser({ name: 'aping', id: 123 }))
 
+
+
+

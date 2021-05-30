@@ -1,4 +1,10 @@
-type Jobs = "ui" | "frontend" | "backend"
+function getLength(obj: string | string[]) {
+    return obj.length;
+}
+
+getLength('abcd')
+getLength(['1', '2', '3'])
+
 
 
 function wrapInArray(obj: string | string[]) {

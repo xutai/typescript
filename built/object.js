@@ -1,5 +1,5 @@
-var user = {
-    // username: "Hayes",
+"use strict";
+const user = {
     name: "xutai",
     id: 0
 };

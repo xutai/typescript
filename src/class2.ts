@@ -1,28 +1,8 @@
-// examle 1
-
-
-// interface User {
-//     name: string;
-//     id: number
-// }
-
-// class UserAccount {
-//     name: string;
-//     id: number;
-
-//     constructor(name: string, id: number) {
-//         this.name = name
-//         this.id = id
-//     }
-
-// }
-
-// const user: User = new UserAccount("xutai", 1)
-
-// console.log("user", user)
-
-
-
+// https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html
+// TypeScript Tooling in 5 minutes - classes
+// public:
+// the use of public on arguments to the constructor is a shorthand 
+// that allows us to automatically create properties with that name
 
 // examle 2
 
@@ -46,7 +26,8 @@ function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-let user = new Student("Jane", "M.", "User");
+let user2 = new Student("Jane", "M.", "User");
 
 // document.body.textContent = greeter(user);
-console.log(greeter(user))
+console.log(greeter(user2))
+

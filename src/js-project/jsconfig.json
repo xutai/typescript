@@ -1,0 +1,63 @@
+{
+    "compilerOptions": {
+
+        /* Project Options */
+        // "allowJs": false,
+        "checkJs": true,
+        // "composite": false,
+        "declaration": true,
+        // "declarationDir": "./types",
+        "declarationMap": false,
+        // "downlevelIteration": false,
+        // "importHelpers": false,
+        // "incremental": false,
+        // "isolatedModules": false,
+        // "jsx": undefined,
+        // "lib": ,
+        "module": "commonjs",
+        // "noEmit": false,
+        // "outDir": n/a,
+        // "outFile": n/a,
+        // "plugins": n/a,
+        "removeComments": false,
+        // "rootDir": "",
+        // "sourceMap": false,
+        // "target": "ES3",
+        // "tsBuildInfoFile": ".tsbuildinfo",
+
+        /* Strict Checks */
+        "alwaysStrict": false,
+        "noImplicitAny": true,
+        "noImplicitThis": false,
+        "strict": false,
+        "strictBindCallApply": false,
+        "strictFunctionTypes": false,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+
+        /* Module Resolution */
+
+        /* Source Maps */
+
+        /* Linter Checks */
+
+        /* Experimental */
+
+        /* Advanced */
+
+        /* Command Line */
+    },
+    "watchOptions": {},
+    "typeAcquisition": {
+        // "enable": false,
+        // "include": ["jquery"],
+        // "exclude": ["jest", "mocha"],
+        // "disableFilenameBasedTypeAcquisition": true
+    },
+    "files": [
+        "ts-type-hints-in-jsdoc.js"
+    ],
+    // "extends": "",
+    // "include": [],
+    // "exclude": []
+}

@@ -1,3 +1,5 @@
+// structural typing 构造型式
+
 interface Point {
     x: number
     y: number
